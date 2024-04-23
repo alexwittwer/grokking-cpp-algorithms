@@ -136,6 +136,8 @@ public:
         }
     }
 
+    // Code was taken from The Odin Project's assignment on BST. 
+    // Link: https://www.theodinproject.com/lessons/javascript-binary-search-trees
     void prettyPrint(Node<T> *node, const std::string &prefix = "", bool isLeft = true)
     {
         if (!node)
